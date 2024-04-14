@@ -1,0 +1,26 @@
+.visited-list-item {
+  list-style-type: none;
+  width: 350px;
+  height: 250px;
+  background-color: #1f1f2f;
+  margin: 6px;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.name-remove-btn-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove-button {
+  background-color: transparent;
+  border-radius: 4px;
+  color: #ffffff;
+  border: 1px solid #f1f5f9;
+  margin-right: 30px;
+  padding: 6px;
+}

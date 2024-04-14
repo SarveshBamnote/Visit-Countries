@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  background-color: #161624;
+  min-height: 100vh;
+  padding: 40px 200px 40px 200px;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 28px;
+  font-family: 'Roboto';
+}
+
+.no-countries-text {
+  color: #f8fafc;
+  font-size: 24px;
+  font-family: 'Roboto';
+  text-align: center;
+  margin-top: 80px;
+}
+
+.countries-list {
+  height: 320px;
+  overflow-y: scroll;
+  border: 1px solid #334155;
+  background-color: #1f1f2f;
+  border-radius: 10px;
+  padding-left: 0px;
+}
+
+.visited-countries {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
